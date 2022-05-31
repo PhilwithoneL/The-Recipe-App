@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Montserrat:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel = "stylesheet" href="theRecipeApp.css">
+    <title>theRecipeApp</title>
+</head>
+
+<body>
+    <header class = "container-fluid">
+        <div class = "row">
+            <div class = "col-3"></div>
+            <div class = "col-6 title">
+                <div>The Recipe App</div>
+            </div>
+            <div class = "col-3"></div>
+        </div>
+    </header>
+
+    <div class = "container-fluid">
+        <div class = "row">
+            <div class = "col-2"></div>
+            <div class = "col-8 search-container">
+                <div class = "search-box mx-auto">
+                    <form class = "search-form">
+                        <div class = "col-10">
+                            <div>
+                                <input type = "text" id = "inputField" placeholder="Enter your ingredient" autocomplete = "off">
+                            </div>
+                        </div>
+                        <div class = "col-2">
+                            <i class="fas fa-search submit-btn" id = "submitBtn"></i>
+                        </div>
+                    </form>
+                </div>            
+            </div>
+            <div class = "col-2"></div>
+        </div>
+    </div>
+
+    <div id ="recipeList">
+
+    </div>   
+</body>
+
+<script src = "config.js"></script>
+<script src = "theRecipeApp.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
+</html>

@@ -24,7 +24,7 @@ async function findRecipes() {
 
     await fetch(`/.netlify/functions/fetch-recipes?input=${input}`)
         .then(res => res.json())
-        .then(data => recipeData = data)
+            .then(data => recipeData = data)
 
     console.log(recipeData)
 

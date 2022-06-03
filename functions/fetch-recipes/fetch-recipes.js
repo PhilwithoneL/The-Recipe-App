@@ -5,7 +5,6 @@ const handler = async (event) => {
 
   const { input } = event.queryStringParameters
 
-  // const apiKey = "880d7c0a61e64e158ba654272cde54b2"
 
   const apiKey = process.env.API_KEY;
 

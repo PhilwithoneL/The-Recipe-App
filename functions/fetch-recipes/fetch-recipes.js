@@ -11,7 +11,6 @@ const handler = async (event) => {
 
   try {
 
-
     const { data } = await axios.get(`https://api.spoonacular.com/recipes/findByIngredients?apiKey=${apiKey}&ingredients=${input}`)
 
     return {
